@@ -1,0 +1,33 @@
+{
+  "name": "gulp-split-css",
+  "version": "1.0.0",
+  "description": "gulp plugin for splitting CSS files into multiple files",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/me-majidi/gulp-split-css.git"
+  },
+  "keywords": [
+    "gulp",
+    "css",
+    "multi-language",
+    "split-css"
+  ],
+  "author": {
+    "name": "Mehran Majidi",
+    "email": "me.majiidii@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/me-majidi/gulp-split-css/issues"
+  },
+  "homepage": "https://github.com/me-majidi/gulp-split-css#readme",
+  "dependencies": {
+    "rework": "^1.0.1",
+    "stringify": "^5.2.0",
+    "through": "^2.3.8"
+  }
+}
