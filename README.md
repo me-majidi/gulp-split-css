@@ -14,23 +14,23 @@ const  splitCss  =  require('gulp-split-css');
 const  options  =  {
 	mainFileName:  'main',
 	extraSheets: [{
-			selector:  '.lang-en',
-			filename:  'english'
+		selector:  '.lang-en',
+		filename:  'english'
 		},
 		{
-			selector:  '#french',
-			filename:  'styles.french.css'
+		selector:  '#french',
+		filename:  'styles.french.css'
 		},
 		{
-			selector:  '.persian',
-			filename:  'persian.css'
+		selector:  '.persian',
+		filename:  'persian.css'
 		}]
 };
 
 gulp.task('splitCss',  function  ()  {
 	return  gulp.src('./src/app.css')
-				.pipe(splitCss(options))
-				.pipe(gulp.dest('./dist/'));
+		.pipe(splitCss(options))
+		.pipe(gulp.dest('./dist/'));
 });
 ```
 ```css
