@@ -1,6 +1,5 @@
 # gulp-split-css
-A gulp plugin that can splits css files into multiple files base on conditions and selectors.
-It can be helpfull for splitting css files for multi language applications and create defferent stylesheets for each language.
+Gulp plugin that can split CSS files into multiple files base on conditions and selectors. It can break CSS files for multi-language applications and create different stylesheets for each language.
 
 ## Installation
 ```shell
