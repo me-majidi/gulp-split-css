@@ -1,4 +1,4 @@
-# Welcome to StackEdit!
+# gulp-split-css
 A gulp plugin that can splits css files into multiple files base on conditions and selectors.
 It can be helpfull for splitting css files for multi language applications and create defferent stylesheets for each language.
 
